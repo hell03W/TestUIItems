@@ -36,6 +36,7 @@
 		35E394421C50F8CE0091BB6D /* stardashi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E3943D1C50F8CE0091BB6D /* stardashi@2x.png */; };
 		35E394441C510CA00091BB6D /* 笔 记.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35E394431C510CA00091BB6D /* 笔 记.txt */; };
 		E187F9821C72C13E00E1B8A0 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E187F9811C72C13E00E1B8A0 /* ScrollViewController.m */; };
+		E187F9851C731C5700E1B8A0 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E187F9841C731C5700E1B8A0 /* CustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,8 @@
 		35E394431C510CA00091BB6D /* 笔 记.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "笔 记.txt"; sourceTree = "<group>"; };
 		E187F9801C72C13E00E1B8A0 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
 		E187F9811C72C13E00E1B8A0 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
+		E187F9831C731C5700E1B8A0 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		E187F9841C731C5700E1B8A0 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +316,8 @@
 			children = (
 				E187F9801C72C13E00E1B8A0 /* ScrollViewController.h */,
 				E187F9811C72C13E00E1B8A0 /* ScrollViewController.m */,
+				E187F9831C731C5700E1B8A0 /* CustomViewController.h */,
+				E187F9841C731C5700E1B8A0 /* CustomViewController.m */,
 			);
 			path = TestScrollViewController;
 			sourceTree = "<group>";
@@ -459,6 +464,7 @@
 				35BF26691C47B7B400012448 /* WHButton.m in Sources */,
 				354E88331C3BB7D1007D42A6 /* TableViewDataModel.m in Sources */,
 				354E882C1C3BB656007D42A6 /* BaseViewController.m in Sources */,
+				E187F9851C731C5700E1B8A0 /* CustomViewController.m in Sources */,
 				357B4B781C329E61004B22A9 /* WHText.m in Sources */,
 				35E394381C50EF620091BB6D /* UIButton+aasfda.m in Sources */,
 				35DC298F1C329CDC00DB51A7 /* TestUIItems.xcdatamodeld in Sources */,

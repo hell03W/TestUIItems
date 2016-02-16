@@ -35,7 +35,7 @@
 - (NSArray *)classArray
 {
     if (!_classArray) {
-        _classArray = @[@"TestWHButton", @"TestWHStarsViewController", @"ScrollViewController"];
+        _classArray = @[@"TestWHButton", @"TestWHStarsViewController", @"CustomViewController"];
     }
     return _classArray;
 }
@@ -90,6 +90,12 @@
     viewController = [[[class class] alloc] init];
     
     [self presentViewController:viewController animated:YES completion:nil];
+}
+
+- (void)backButtonCkick:(UIButton *)sender
+{
+    NSLog(@"dismiss");
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

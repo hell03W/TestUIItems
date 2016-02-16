@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ScrollViewController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,10 +21,11 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    ScrollViewController *scrollVC = [[ScrollViewController alloc] init];
-    [scrollVC setBackgroundColor:[UIColor lightGrayColor] foregroundColor:[UIColor redColor]];
-    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:scrollVC];
-    self.window.rootViewController = navi;
+//    ScrollViewController *scrollVC = [[ScrollViewController alloc] init];
+//    [scrollVC setBackgroundColor:[UIColor lightGrayColor] foregroundColor:[UIColor redColor]];
+//    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:scrollVC];
+//    self.window.rootViewController = navi;
+    self.window.rootViewController = [[ViewController alloc] init];
     [self.window makeKeyAndVisible];
     
     return YES;
