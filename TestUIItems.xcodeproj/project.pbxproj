@@ -35,6 +35,7 @@
 		35E394411C50F8CE0091BB6D /* stardak@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E3943C1C50F8CE0091BB6D /* stardak@2x.png */; };
 		35E394421C50F8CE0091BB6D /* stardashi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E3943D1C50F8CE0091BB6D /* stardashi@2x.png */; };
 		35E394441C510CA00091BB6D /* 笔 记.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35E394431C510CA00091BB6D /* 笔 记.txt */; };
+		E187F9821C72C13E00E1B8A0 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E187F9811C72C13E00E1B8A0 /* ScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		35E3943C1C50F8CE0091BB6D /* stardak@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stardak@2x.png"; sourceTree = "<group>"; };
 		35E3943D1C50F8CE0091BB6D /* stardashi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stardashi@2x.png"; sourceTree = "<group>"; };
 		35E394431C510CA00091BB6D /* 笔 记.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "笔 记.txt"; sourceTree = "<group>"; };
+		E187F9801C72C13E00E1B8A0 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		E187F9811C72C13E00E1B8A0 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,7 @@
 				354E882D1C3BB7D1007D42A6 /* HomeIndex */,
 				354E88261C3BB5DC007D42A6 /* TestWHButton */,
 				35BF265F1C47AE8000012448 /* TestWHStars */,
+				E187F97F1C72C12200E1B8A0 /* TestScrollViewController */,
 				354E882A1C3BB656007D42A6 /* BaseViewController.h */,
 				354E882B1C3BB656007D42A6 /* BaseViewController.m */,
 				35E394431C510CA00091BB6D /* 笔 记.txt */,
@@ -304,6 +308,15 @@
 			path = TestUIItemsUITests;
 			sourceTree = "<group>";
 		};
+		E187F97F1C72C12200E1B8A0 /* TestScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E187F9801C72C13E00E1B8A0 /* ScrollViewController.h */,
+				E187F9811C72C13E00E1B8A0 /* ScrollViewController.m */,
+			);
+			path = TestScrollViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -371,6 +384,7 @@
 				TargetAttributes = {
 					35DC297D1C329CDB00DB51A7 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UKGP8APB47;
 					};
 					35DC29991C329CDC00DB51A7 = {
 						CreatedOnToolsVersion = 7.2;
@@ -457,6 +471,7 @@
 				357B4B761C329E61004B22A9 /* NSString+WHAttributeString.m in Sources */,
 				35DC29831C329CDC00DB51A7 /* main.m in Sources */,
 				357B4B771C329E61004B22A9 /* UILabel+WHAttributeLabel.m in Sources */,
+				E187F9821C72C13E00E1B8A0 /* ScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,10 +610,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TestUIItems/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.walden.DateTools.TestUIItems;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -606,10 +624,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TestUIItems/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.walden.DateTools.TestUIItems;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

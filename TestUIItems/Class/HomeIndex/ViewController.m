@@ -28,14 +28,14 @@
 - (NSArray *)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[@"WHButton", @"WHStars"];
+        _dataArray = @[@"WHButton", @"WHStars", @"ScrollViewController"];
     }
     return _dataArray;
 }
 - (NSArray *)classArray
 {
     if (!_classArray) {
-        _classArray = @[@"TestWHButton", @"TestWHStarsViewController"];
+        _classArray = @[@"TestWHButton", @"TestWHStarsViewController", @"ScrollViewController"];
     }
     return _classArray;
 }
