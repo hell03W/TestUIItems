@@ -9,11 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface WHStars : UIView
-{
-    double _numberOfStar;
-}
 
-@property (nonatomic, assign) double numberOfStar; // Totle star number
+@property (nonatomic, assign) double starNumber; // Totle star number
 @property(assign,nonatomic) double fillStarNumber; // Fill star number
 @property(assign,nonatomic) BOOL clickAble; //clickAble Default is NO
 @property (nonatomic, assign) double starWidth; //Default is 15
@@ -27,7 +24,5 @@
 // get object with +
 + (id)starWithStarNumber:(double)number;
 + (id)starWithStarNumber:(double)number fillStarNumber:(double)fillnumber;
-
-
 
 @end

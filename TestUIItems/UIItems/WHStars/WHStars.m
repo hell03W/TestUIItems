@@ -52,7 +52,7 @@
 - (id)initWithStarNumber:(double)number
 {
     self = [self initWithFrame:CGRectZero];
-    self.numberOfStar = number;
+    self.starNumber = number;
     return self;
 }
 
@@ -123,10 +123,10 @@
 //get方法,获取星星数量
 - (double)numberOfStar
 {
-    if (_numberOfStar == 0) {
-        _numberOfStar = 5;
+    if (_starNumber == 0) {
+        return 5;
     }
-    return _numberOfStar;
+    return _starNumber;
 }
 
 //set方法,设置星星是否可以被点击
@@ -149,9 +149,10 @@
 }
 
 //set方法, 设置星星的总数量
-- (void)setNumberOfStar:(double)numberOfStar
+//- (void)setNumberOfStar:(double)numberOfStar
+- (void)setStarNumber:(double)starNumber
 {
-    _numberOfStar = numberOfStar;
+    _starNumber = starNumber;
     [self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     
     [self loadMainView];

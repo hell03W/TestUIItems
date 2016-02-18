@@ -28,7 +28,7 @@
     [self.view addSubview:stars1];
     stars1.frame = CGRectMake(10, 80, 200, 30);
     stars1.backgroundColor = [UIColor lightGrayColor];
-    
+
     stars1.clickAble = YES;
 }
 
