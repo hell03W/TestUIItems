@@ -13,6 +13,7 @@
 
 #import "TestWHButton.h"
 #import "TestWHStarsViewController.h"
+#import "CustomViewController.h"
 
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
@@ -71,6 +72,7 @@
         cell = [[CustomTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
     cell.textLabel.text = self.dataArray[indexPath.row];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
@@ -89,7 +91,9 @@
     id class = NSClassFromString(className);
     viewController = [[[class class] alloc] init];
     
-    [self presentViewController:viewController animated:YES completion:nil];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self presentViewController:viewController animated:YES completion:nil];
+    });
 }
 
 - (void)backButtonCkick:(UIButton *)sender

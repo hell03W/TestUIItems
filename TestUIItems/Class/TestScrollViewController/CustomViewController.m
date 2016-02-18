@@ -27,7 +27,7 @@
     [self.slideView addSubview:backBtn];
     backBtn.frame = CGRectMake(20, 40, 120, 40);
     [backBtn setTitle:@"返回" forState:0];
-    [backBtn setTitleColor:[UIColor whiteColor] forState:0];
+    [backBtn setTitleColor:[UIColor lightGrayColor] forState:0];
     [backBtn addTarget:self action:@selector(backBtnClick:) forControlEvents:64];
     backBtn.layer.cornerRadius = 5;
     backBtn.layer.borderColor = [[UIColor whiteColor] CGColor];

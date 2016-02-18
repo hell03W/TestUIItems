@@ -14,9 +14,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     [self loadMainView];
     
+    [self loadMainView1];
 }
 
 - (void)loadMainView
@@ -54,6 +56,23 @@
     customBtn2.backgroundColor = [UIColor lightGrayColor];
     customBtn3.backgroundColor = [UIColor lightGrayColor];
     customBtn4.backgroundColor = [UIColor lightGrayColor];
+}
+
+
+- (void)loadMainView1
+{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:btn];
+    [btn setTitle:@"返回" forState:0];
+    btn.frame = CGRectMake(20, 20, 80, 30);
+    btn.backgroundColor = [UIColor lightGrayColor];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:64];
+    btn.backgroundColor = [UIColor lightGrayColor];
+}
+
+- (void)btnClick
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

@@ -28,15 +28,14 @@
 		35DC29941C329CDC00DB51A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DC29921C329CDC00DB51A7 /* LaunchScreen.storyboard */; };
 		35DC299F1C329CDC00DB51A7 /* TestUIItemsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC299E1C329CDC00DB51A7 /* TestUIItemsTests.m */; };
 		35DC29AA1C329CDC00DB51A7 /* TestUIItemsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC29A91C329CDC00DB51A7 /* TestUIItemsUITests.m */; };
-		35E394381C50EF620091BB6D /* UIButton+aasfda.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E394371C50EF620091BB6D /* UIButton+aasfda.m */; };
 		35E3943E1C50F8CE0091BB6D /* star k@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E394391C50F8CE0091BB6D /* star k@2x.png */; };
 		35E3943F1C50F8CE0091BB6D /* star s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E3943A1C50F8CE0091BB6D /* star s@2x.png */; };
 		35E394401C50F8CE0091BB6D /* starban@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E3943B1C50F8CE0091BB6D /* starban@2x.png */; };
 		35E394411C50F8CE0091BB6D /* stardak@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E3943C1C50F8CE0091BB6D /* stardak@2x.png */; };
 		35E394421C50F8CE0091BB6D /* stardashi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E3943D1C50F8CE0091BB6D /* stardashi@2x.png */; };
 		35E394441C510CA00091BB6D /* 笔 记.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35E394431C510CA00091BB6D /* 笔 记.txt */; };
-		E187F9821C72C13E00E1B8A0 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E187F9811C72C13E00E1B8A0 /* ScrollViewController.m */; };
 		E187F9851C731C5700E1B8A0 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E187F9841C731C5700E1B8A0 /* CustomViewController.m */; };
+		E1D5B8011C74617B00B75235 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B8001C74617B00B75235 /* ScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,18 +96,16 @@
 		35DC29A51C329CDC00DB51A7 /* TestUIItemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUIItemsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DC29A91C329CDC00DB51A7 /* TestUIItemsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUIItemsUITests.m; sourceTree = "<group>"; };
 		35DC29AB1C329CDC00DB51A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35E394361C50EF620091BB6D /* UIButton+aasfda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+aasfda.h"; sourceTree = "<group>"; };
-		35E394371C50EF620091BB6D /* UIButton+aasfda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+aasfda.m"; sourceTree = "<group>"; };
 		35E394391C50F8CE0091BB6D /* star k@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star k@2x.png"; sourceTree = "<group>"; };
 		35E3943A1C50F8CE0091BB6D /* star s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star s@2x.png"; sourceTree = "<group>"; };
 		35E3943B1C50F8CE0091BB6D /* starban@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starban@2x.png"; sourceTree = "<group>"; };
 		35E3943C1C50F8CE0091BB6D /* stardak@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stardak@2x.png"; sourceTree = "<group>"; };
 		35E3943D1C50F8CE0091BB6D /* stardashi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stardashi@2x.png"; sourceTree = "<group>"; };
 		35E394431C510CA00091BB6D /* 笔 记.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "笔 记.txt"; sourceTree = "<group>"; };
-		E187F9801C72C13E00E1B8A0 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
-		E187F9811C72C13E00E1B8A0 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 		E187F9831C731C5700E1B8A0 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
 		E187F9841C731C5700E1B8A0 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		E1D5B7FF1C74617B00B75235 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		E1D5B8001C74617B00B75235 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +192,7 @@
 			children = (
 				35BF26631C47B7B400012448 /* WHButton */,
 				35BF26661C47B7B400012448 /* WHStars */,
-				35E394361C50EF620091BB6D /* UIButton+aasfda.h */,
-				35E394371C50EF620091BB6D /* UIButton+aasfda.m */,
+				E1D5B7FE1C74614E00B75235 /* ScrollViewController */,
 			);
 			path = UIItems;
 			sourceTree = "<group>";
@@ -314,12 +310,19 @@
 		E187F97F1C72C12200E1B8A0 /* TestScrollViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E187F9801C72C13E00E1B8A0 /* ScrollViewController.h */,
-				E187F9811C72C13E00E1B8A0 /* ScrollViewController.m */,
 				E187F9831C731C5700E1B8A0 /* CustomViewController.h */,
 				E187F9841C731C5700E1B8A0 /* CustomViewController.m */,
 			);
 			path = TestScrollViewController;
+			sourceTree = "<group>";
+		};
+		E1D5B7FE1C74614E00B75235 /* ScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5B7FF1C74617B00B75235 /* ScrollViewController.h */,
+				E1D5B8001C74617B00B75235 /* ScrollViewController.m */,
+			);
+			path = ScrollViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,7 +469,6 @@
 				354E882C1C3BB656007D42A6 /* BaseViewController.m in Sources */,
 				E187F9851C731C5700E1B8A0 /* CustomViewController.m in Sources */,
 				357B4B781C329E61004B22A9 /* WHText.m in Sources */,
-				35E394381C50EF620091BB6D /* UIButton+aasfda.m in Sources */,
 				35DC298F1C329CDC00DB51A7 /* TestUIItems.xcdatamodeld in Sources */,
 				35BF266D1C47B7D000012448 /* TestWHStarsViewController.m in Sources */,
 				354E88291C3BB609007D42A6 /* TestWHButton.m in Sources */,
@@ -477,7 +479,7 @@
 				357B4B761C329E61004B22A9 /* NSString+WHAttributeString.m in Sources */,
 				35DC29831C329CDC00DB51A7 /* main.m in Sources */,
 				357B4B771C329E61004B22A9 /* UILabel+WHAttributeLabel.m in Sources */,
-				E187F9821C72C13E00E1B8A0 /* ScrollViewController.m in Sources */,
+				E1D5B8011C74617B00B75235 /* ScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
