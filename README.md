@@ -121,6 +121,7 @@ circleBtn.borderWidth = 4;
 circleBtn.borderColor = [UIColor yellowColor];
 ```
 效果如下所示:
+
 ![](http://ww3.sinaimg.cn/large/6281e9fbgw1f19cj75lemj20fa09mmxh.jpg)
 
 
