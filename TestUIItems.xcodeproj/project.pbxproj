@@ -34,6 +34,8 @@
 		35E394411C50F8CE0091BB6D /* stardak@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E3943C1C50F8CE0091BB6D /* stardak@2x.png */; };
 		35E394421C50F8CE0091BB6D /* stardashi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E3943D1C50F8CE0091BB6D /* stardashi@2x.png */; };
 		35E394441C510CA00091BB6D /* 笔 记.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35E394431C510CA00091BB6D /* 笔 记.txt */; };
+		E17C83F71C7C455C0047F6EA /* CircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E17C83F61C7C455C0047F6EA /* CircleButton.m */; };
+		E17C83FB1C7C46E40047F6EA /* CircleButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17C83FA1C7C46E40047F6EA /* CircleButtonViewController.m */; };
 		E187F9851C731C5700E1B8A0 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E187F9841C731C5700E1B8A0 /* CustomViewController.m */; };
 		E1D5B8011C74617B00B75235 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5B8001C74617B00B75235 /* ScrollViewController.m */; };
 /* End PBXBuildFile section */
@@ -102,6 +104,10 @@
 		35E3943C1C50F8CE0091BB6D /* stardak@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stardak@2x.png"; sourceTree = "<group>"; };
 		35E3943D1C50F8CE0091BB6D /* stardashi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stardashi@2x.png"; sourceTree = "<group>"; };
 		35E394431C510CA00091BB6D /* 笔 记.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "笔 记.txt"; sourceTree = "<group>"; };
+		E17C83F51C7C455C0047F6EA /* CircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleButton.h; sourceTree = "<group>"; };
+		E17C83F61C7C455C0047F6EA /* CircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleButton.m; sourceTree = "<group>"; };
+		E17C83F91C7C46E40047F6EA /* CircleButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleButtonViewController.h; sourceTree = "<group>"; };
+		E17C83FA1C7C46E40047F6EA /* CircleButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleButtonViewController.m; sourceTree = "<group>"; };
 		E187F9831C731C5700E1B8A0 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
 		E187F9841C731C5700E1B8A0 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		E1D5B7FF1C74617B00B75235 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
@@ -172,6 +178,7 @@
 				354E88261C3BB5DC007D42A6 /* TestWHButton */,
 				35BF265F1C47AE8000012448 /* TestWHStars */,
 				E187F97F1C72C12200E1B8A0 /* TestScrollViewController */,
+				E17C83F81C7C46CE0047F6EA /* CircleButton */,
 				354E882A1C3BB656007D42A6 /* BaseViewController.h */,
 				354E882B1C3BB656007D42A6 /* BaseViewController.m */,
 				35E394431C510CA00091BB6D /* 笔 记.txt */,
@@ -190,6 +197,7 @@
 		357B4B6D1C329D40004B22A9 /* UIItems */ = {
 			isa = PBXGroup;
 			children = (
+				E17C83F41C7C45300047F6EA /* CircleButton */,
 				35BF26631C47B7B400012448 /* WHButton */,
 				35BF26661C47B7B400012448 /* WHStars */,
 				E1D5B7FE1C74614E00B75235 /* ScrollViewController */,
@@ -305,6 +313,24 @@
 				35DC29AB1C329CDC00DB51A7 /* Info.plist */,
 			);
 			path = TestUIItemsUITests;
+			sourceTree = "<group>";
+		};
+		E17C83F41C7C45300047F6EA /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				E17C83F51C7C455C0047F6EA /* CircleButton.h */,
+				E17C83F61C7C455C0047F6EA /* CircleButton.m */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		E17C83F81C7C46CE0047F6EA /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				E17C83F91C7C46E40047F6EA /* CircleButtonViewController.h */,
+				E17C83FA1C7C46E40047F6EA /* CircleButtonViewController.m */,
+			);
+			path = CircleButton;
 			sourceTree = "<group>";
 		};
 		E187F97F1C72C12200E1B8A0 /* TestScrollViewController */ = {
@@ -470,6 +496,8 @@
 				E187F9851C731C5700E1B8A0 /* CustomViewController.m in Sources */,
 				357B4B781C329E61004B22A9 /* WHText.m in Sources */,
 				35DC298F1C329CDC00DB51A7 /* TestUIItems.xcdatamodeld in Sources */,
+				E17C83FB1C7C46E40047F6EA /* CircleButtonViewController.m in Sources */,
+				E17C83F71C7C455C0047F6EA /* CircleButton.m in Sources */,
 				35BF266D1C47B7D000012448 /* TestWHStarsViewController.m in Sources */,
 				354E88291C3BB609007D42A6 /* TestWHButton.m in Sources */,
 				354E88361C3BB990007D42A6 /* ViewController.m in Sources */,

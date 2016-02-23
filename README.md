@@ -107,12 +107,21 @@ ScrollViewController如果自己的viewController需要可以滑动, 就可以�
 self.slideViewHeight = 1000;
 ```
 
+## 4, CircleButton 圆形的按钮
+一般情况下使用layer的相关属性就可以定义出圆形的控件, 也可以定义出圆形的按钮, 但是有个bug, 当点击圆形按钮不在园内, 但在矩形控件区域时候, 圆形按钮的点击事件还会被触发, 这时候需要重写hitTest:withEvent:方法来判断点击的位置, 然后判断是否在圆形区域内部, `CircleButton` 对圆形按钮进行了封装, 可以更加方便的使用圆形按钮. 
+**使用示例:**
 
-
-
-
-
-
+```
+CircleButton *circleBtn = [[CircleButton alloc] initWithFrame:CGRectMake(40, 100, 200, 200)];
+[self.view addSubview:circleBtn];
+[circleBtn addTarget:self andSelector:@selector(circleBtnClick)];
+circleBtn.backgroundColor = [UIColor redColor];
+circleBtn.title = @"圆形Btn";
+circleBtn.borderWidth = 4;
+circleBtn.borderColor = [UIColor yellowColor];
+```
+效果如下所示:
+![](http://ww3.sinaimg.cn/large/6281e9fbgw1f19cj75lemj20fa09mmxh.jpg)
 
 
 
