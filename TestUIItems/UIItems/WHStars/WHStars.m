@@ -59,7 +59,7 @@
 - (void)loadMainView
 {
     UIView *lastStar;
-
+    
     //将星星放到view上去
     for (int i = 0; i < self.starsArray.count; i++) {
         UIButton *starButton = self.starsArray[i];
@@ -69,7 +69,7 @@
         }else{
             starButton.frame = CGRectMake(CGRectGetMaxX(lastStar.frame)+4, 0, _starWidth, self.frame.size.height);
         }
-
+        
         lastStar = starButton;
     }
     
@@ -83,11 +83,11 @@
     
     for (UIView *subView in self.subviews) {
         if (!lastStar) {
-            subView.frame = CGRectMake(0, 0, _starWidth, self.frame.size.height);
+            subView.frame = CGRectMake(0, (self.frame.size.height-_starWidth)/2, _starWidth, _starWidth);
         }else{
-            subView.frame = CGRectMake(CGRectGetMaxX(lastStar.frame)+4, 0, _starWidth, self.frame.size.height);
+            subView.frame = CGRectMake(CGRectGetMaxX(lastStar.frame)+4, (self.frame.size.height-_starWidth)/2, _starWidth, _starWidth);
         }
-
+        
         lastStar = subView;
     }
 }
